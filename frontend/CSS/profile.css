@@ -1,0 +1,100 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Container */
+  .container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Heading */
+  .container h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input Styles */
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #333;
+    display: block;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: border 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #2575fc;
+    outline: none;
+    box-shadow: 0 0 8px rgba(37, 117, 252, 0.5);
+  }
+  
+  /* Buttons */
+  .profile-btn {
+    background-color: #6a11cb;
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .profile-btn:hover {
+    background-color: #2575fc;
+  }
+  
+  .logout-btn {
+    background-color: #3c36f4;
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .logout-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  
